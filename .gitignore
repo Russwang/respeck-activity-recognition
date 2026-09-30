@@ -1,0 +1,25 @@
+# Local datasets and original recordings
+RESpeckData_2526_fixed/
+RESpeckData_Updated/
+pdiot_har_example/assets/*.csv
+# Local environment and build products
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.local-backup/
+.env
+.env.*
+*.jks
+*.keystore
+local.properties
+# Training exports are local; retain reviewed historical evaluation artifacts.
+training_outputs/
+**/saved_model*/
+pdiot_har_example/assets/model-physical-updated.tflite
+pdiot_har_example/assets/model-social-updated.tflite
+**/.cxx/
+**/.gradle/
+*.apk
+*.aab
