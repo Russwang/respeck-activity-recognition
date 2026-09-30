@@ -1,5 +1,7 @@
 # RESpeck Wearable Activity Recognition
 
+[![Checks](https://github.com/Russwang/respeck-activity-recognition/actions/workflows/ci.yml/badge.svg)](https://github.com/Russwang/respeck-activity-recognition/actions/workflows/ci.yml)
+
 **Wearable sensing → Bluetooth Low Energy → on-device CNN inference → Android UI.**
 
 A University of Edinburgh MSc coursework project extending a supplied Flutter data-collection app with real-time activity and respiratory/social-signal classification. TensorFlow/Keras trains compact 1D CNNs; TensorFlow Lite runs them locally on Android using chest-worn RESpeck accelerometer data.
@@ -85,7 +87,7 @@ flutter run -d <android-device-id>
 flutter build apk --debug
 ```
 
-The debug APK is a development build, not a signed production release. Local APK compilation is currently blocked by the missing Android SDK; the CI workflow attempts a clean Android build. A 2025 APK found in a local build folder is not published as the result of these changes.
+The debug APK is a development build, not a signed production release. Android compilation passed in [GitHub Actions](https://github.com/Russwang/respeck-activity-recognition/actions/runs/36677904214) on 30 September 2026. Download the [debug APK artifact](https://github.com/Russwang/respeck-activity-recognition/actions/runs/36677904214/artifacts/11080014108) (GitHub sign-in may be required; artifacts expire under repository retention settings). Local compilation still needs the missing Android SDK. A 2025 APK found in a local build folder is not published as the result of these changes.
 
 ## Python setup and training
 

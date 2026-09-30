@@ -31,7 +31,13 @@ Review date: 30 September 2026. This revision prepares the existing course proje
 
 Synthetic windows establish that preprocessing and model execution work. They do not measure human activity recognition accuracy. The existing local `build/` folder contains an old November 2025 APK; it is not a validated APK of this revision and is excluded from Git.
 
-CI configuration is included; GitHub Actions results must be checked separately from these local checks.
+## Verified GitHub build
+
+[All CI jobs passed](https://github.com/Russwang/respeck-activity-recognition/actions/runs/36677904214) for code commit `38c04f8` on 30 September 2026: Flutter formatting, analysis, nine tests, Android debug compilation, four Python tests, model inference checks and both synthetic training/export pipelines.
+
+The [android-debug-apk artifact](https://github.com/Russwang/respeck-activity-recognition/actions/runs/36677904214/artifacts/11080014108) contains the newly compiled debug APK. This is a development build, not a store release. Artifacts may require GitHub sign-in and are subject to retention expiry. Successful compilation does not replace a phone/RESpeck hardware test.
+
+Later documentation-only commits do not change the tested code.
 
 ## Missing files or evidence
 
