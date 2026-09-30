@@ -5,6 +5,7 @@ Review date: 30 September 2026. This revision prepares the existing course proje
 ## Changes
 
 - Selected the saved six-channel physical/signal models and their accompanying ordered label mappings; synchronized Dart and Python preprocessing.
+- Aligned Android Gradle Plugin 8.12.1 / Gradle 8.13 / Java 17 with the installed package_info_plus 9.0.0 requirements.
 - Added model manifests with hashes and runtime tensor/type validation.
 - Separated stable class identities from changing confidence text.
 - Replaced history timing with millisecond accumulation, midnight splitting, uncertain-result exclusion and gap/session handling. Preserved legacy stored data separately.
