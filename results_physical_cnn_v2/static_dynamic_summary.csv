@@ -1,0 +1,3 @@
+group,n_classes,total_windows,macro_mean_per_class_accuracy,weighted_accuracy
+static,5,5584,0.9722288888286685,0.9641833810888252
+dynamic,6,6477,0.854249525786915,0.8545622973598889

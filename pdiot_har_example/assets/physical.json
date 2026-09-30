@@ -1,0 +1,31 @@
+{
+  "asset": "assets/physical.tflite",
+  "input_shape": [
+    1,
+    120,
+    6
+  ],
+  "output_shape": [
+    1,
+    11
+  ],
+  "dtype": "float32",
+  "preprocessing": "window_standardize_plus_mean",
+  "epsilon": 1e-06,
+  "labels": [
+    "ascending",
+    "descending",
+    "lyingBack",
+    "lyingLeft",
+    "lyingRight",
+    "lyingStomach",
+    "miscMovement",
+    "normalWalking",
+    "running",
+    "shuffleWalking",
+    "sittingStanding"
+  ],
+  "sha256": "916802e4610abecf8d64c6abc80b8b4358cecc9f23e00dfef1bec499605cf1f1",
+  "source_directory": "results_physical_cnn_v2",
+  "evaluation_provenance": "Historical artifacts; evaluation not rerun. Original run metadata unavailable."
+}

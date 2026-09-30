@@ -1,0 +1,6 @@
+{
+  "breathingNormally": 0,
+  "coughing": 1,
+  "hyperventilation": 2,
+  "other": 3
+}

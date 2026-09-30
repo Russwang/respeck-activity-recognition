@@ -1,0 +1,13 @@
+{
+  "ascending": 0,
+  "descending": 1,
+  "lyingBack": 2,
+  "lyingLeft": 3,
+  "lyingRight": 4,
+  "lyingStomach": 5,
+  "miscMovement": 6,
+  "normalWalking": 7,
+  "running": 8,
+  "shuffleWalking": 9,
+  "sittingStanding": 10
+}

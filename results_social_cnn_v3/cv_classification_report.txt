@@ -1,0 +1,18 @@
+===== Group 3-fold CV (by file) =====
+Mean acc: 0.7021  Std: 0.0097
+
+Fold accuracies:
+[0.6889450867052023, 0.7120774342675528, 0.7053255293012501]
+
+Classification report (aggregated across folds):
+              precision    recall  f1-score   support
+
+           0     0.5597    0.7802    0.6518      6714
+           1     0.6095    0.7403    0.6686      6514
+           2     0.6395    0.7343    0.6836      6544
+           3     0.8536    0.6569    0.7425     21751
+
+    accuracy                         0.7021     41523
+   macro avg     0.6656    0.7279    0.6866     41523
+weighted avg     0.7340    0.7021    0.7069     41523
+

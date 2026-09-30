@@ -1,0 +1,12 @@
+group,label_id,class_name,support,tp,recall
+static,10,sittingStanding,2095,1957,0.9341288782816229
+static,3,lyingLeft,728,707,0.9711538461538461
+static,2,lyingBack,975,959,0.9835897435897436
+static,5,lyingStomach,1110,1094,0.9855855855855856
+static,4,lyingRight,676,667,0.9866863905325444
+dynamic,6,miscMovement,1122,838,0.7468805704099821
+dynamic,9,shuffleWalking,1024,797,0.7783203125
+dynamic,7,normalWalking,1051,900,0.8563273073263559
+dynamic,1,descending,1081,970,0.8973172987974098
+dynamic,0,ascending,1109,1001,0.9026149684400361
+dynamic,8,running,1090,1029,0.9440366972477064

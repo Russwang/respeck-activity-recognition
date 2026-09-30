@@ -1,0 +1,24 @@
+{
+  "asset": "assets/social.tflite",
+  "input_shape": [
+    1,
+    120,
+    6
+  ],
+  "output_shape": [
+    1,
+    4
+  ],
+  "dtype": "float32",
+  "preprocessing": "window_standardize_plus_mean",
+  "epsilon": 1e-06,
+  "labels": [
+    "breathingNormally",
+    "coughing",
+    "hyperventilation",
+    "other"
+  ],
+  "sha256": "331a24d52cb58d11163b5b7fad7fa7cab322c4a4d4b677b64a0a6e3ec0fcdb60",
+  "source_directory": "results_social_cnn_v3",
+  "evaluation_provenance": "Historical artifacts; evaluation not rerun. Original run metadata unavailable."
+}

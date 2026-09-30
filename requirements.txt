@@ -1,0 +1,6 @@
+# Python 3.10/3.11; portable training and model-verification environment.
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+tensorflow==2.16.2
+tflite==2.18.0
